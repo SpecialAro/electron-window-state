@@ -17,6 +17,8 @@ declare namespace windowStateKeeper {
         maximize?: boolean;
         /** Allow the window to go out of bounds as long as one corner is still in view. */
         outOfBounds?: boolean;
+        /** Reset window to center of the screen */
+        resetToCenter?: boolean;
     }
 
     interface State {
